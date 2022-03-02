@@ -1,0 +1,88 @@
+.page {
+height: 100%;
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  min-height: 100%;
+  min-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content ;
+  outline: 5px solid blue;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  outline: 3px solid red ;
+  align-items: center;
+  padding-left: 20px ;
+}
+
+.header p {
+  font-size: 50px;
+  opacity: 0.7 ;
+  font-family:'Hubballi', cursive, Arial, sans-serif;
+  color: black;
+}
+
+main {
+  display: flex;
+  background-color: #DCDCDC;
+}
+
+.nav {
+  background-color: white;
+  margin-right: 50px;
+  margin-left: 20px;
+  border-radius: 5px;
+  width: 170px;
+  line-height: 40px;
+  box-shadow: 5px 5px 5px black;
+  list-style: none;
+  padding-left: 30px;
+}
+
+.nav a {
+  color:black;
+}
+
+.nav a:hover{
+  text-shadow: 1px 1px 5px rgba(0, 255, 157);
+}
+
+.nav a:active {
+  text-shadow: 1px 1px 10px red;
+  opacity: 0.3;
+}
+
+.active {
+  text-shadow: 1px 1px 10px red;
+  opacity: 0.3;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text {
+  text-align: justify;
+  margin-right: 50px;
+}
+
+footer div{
+text-align: right;
+width: 300px;
+align-content: right;
+float: right;
+margin-right: 50px;
+}
+
+
