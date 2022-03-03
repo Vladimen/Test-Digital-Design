@@ -151,6 +151,10 @@ figcaption {
   right:10px;
 }
 
+.button a:hover {
+  background-color: black;
+}
+
 .button img {
   padding-top: 10px;
 }
