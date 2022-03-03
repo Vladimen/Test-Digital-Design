@@ -100,8 +100,8 @@ main {
   min-height: 150px;
   background-image: url(../img/pen.png);
   background-repeat: no-repeat;
-  background-position: right;
-  background-size: 10% ;
+  background-position: right 10px bottom 70% ;
+  background-size: 10%;
 }
 
 .definition h3  {
@@ -118,7 +118,7 @@ main {
 .definition p  {
   margin-left: 50px;
   padding-bottom: 30px;
-  margin-right: 120px;
+  margin-right: 125px;
   line-height: 30px;
 }
 
