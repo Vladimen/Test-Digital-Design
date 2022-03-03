@@ -33,9 +33,9 @@ img {
   justify-content: center;
   background-color: black;
   color: white;
-  height: 300px;
+  min-height: 300px;
   outline: 20px solid red;
-  margin-left: -660px;
+  margin-left: -290px;
 }
 
 .main-header h1 {
@@ -46,7 +46,7 @@ img {
 }
 
 .main-header img {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 /*main*/
@@ -149,7 +149,7 @@ border-radius: 5px;
   }
 
 figcaption {
-  text-align: left;
+  text-align: center;
   padding: 25px 0 25px 25px;
 }
 
