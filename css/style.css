@@ -122,10 +122,14 @@ main {
   line-height: 30px;
 }
 
+.content-header {
+  margin-top: 60px;
+}
+
 .header-html {
   position: relative;
   width: 160px;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 10px;
 }
 
