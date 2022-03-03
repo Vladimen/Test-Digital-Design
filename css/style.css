@@ -122,8 +122,58 @@ main {
   line-height: 30px;
 }
 
-.content h2 {
-  margin-top: 50px ;
+.header-html {
+  position: relative;
+  width: 160px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.html-logo {
+  position: absolute;
+  background-image: url(../img/html-logo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  right: 0;
+  margin-top: 5px;
+}
+
+.header-css {
+  position: relative;
+  width: 140px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.css-logo {
+  position: absolute;
+  background-image: url(../img/css-logo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  right: 0;
+  margin-top: 5px;
+}
+
+.header-js {
+  position: relative;
+  width: 230px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.js-logo {
+  position: absolute;
+  background-image: url(../img/js-logo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  right: 0;
+  margin-top: 5px;
 }
 
 .image {
