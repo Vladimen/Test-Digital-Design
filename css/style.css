@@ -30,21 +30,29 @@ img {
 
 .main-header {
   display: flex;
-  justify-content: space-between;
-  background-color: #7d2aeb;
+  justify-content: center;
+  background-color: black;
   color: white;
-  height: 150px;
+  height: 300px;
+  outline: 20px solid red;
+  margin-left: -660px;
 }
 
 .main-header h1 {
-  align-self: center;
   font-size: 60px;
+  width: 500px;
+  align-self: center;
+  margin-left: -120px;
+}
+
+.main-header img {
+  margin-top: 10px;
 }
 
 /*main*/
 
 main {
-  background-color: rgb(94, 84, 84);
+  background-color: rgb(0, 0, 0);
   color: white;
 }
 
@@ -90,7 +98,6 @@ main {
   color: black;
   border-radius: 10px;
   min-height: 150px;
-  box-shadow: 10px 10px 10px;
   background-image: url(../img/pen.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -99,7 +106,7 @@ main {
 
 .definition h3  {
   color: white;
-  background-color: #7d2aeb;
+  background-color: #000000;
   width: 200px;
   text-align: center;
   margin-left: 50px;
@@ -121,15 +128,24 @@ main {
 
 .image {
   text-align: center;
+  border-radius: 5px;
+}
+
+.image img {
+  border-radius: 5px;
 }
 
 .content-image {
-  background-color: rgb(226, 226, 226);
-  color: black;
+  background-color: rgb(34, 30, 30);
+  color: white;
   border-radius: 5px;
   text-align: center;
   margin: 0;
   padding-bottom: 25px;
+  }
+
+  .content-image img {
+border-radius: 5px;
   }
 
 figcaption {
@@ -139,9 +155,10 @@ figcaption {
 
 .button {
   position: fixed;
-  background-color: rgb(226, 226, 226);
-  width:70px;
-  height: 75px;
+  background-color: black;
+  opacity: 0.5;
+  width:50px;
+  height: 60px;
   border-radius: 10px;
   margin-right: 20px;
   position:fixed;
@@ -149,19 +166,20 @@ figcaption {
   bottom:130px;
   left:auto;
   right:10px;
+
 }
 
 .button:hover {
-  background-color: black;
-  opacity: 0.5;
+  background-color: rgb(226, 226, 226);
+  opacity: 1;
 }
 
 .button img {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 footer {
-  background-color: black;
+  background-color: rgb(34, 30, 30);
   color: white;
 }
 
