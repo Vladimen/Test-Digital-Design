@@ -151,8 +151,9 @@ figcaption {
   right:10px;
 }
 
-.button a:hover {
+.button:hover {
   background-color: black;
+  opacity: 0.5;
 }
 
 .button img {
