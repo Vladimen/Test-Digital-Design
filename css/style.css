@@ -142,11 +142,11 @@ main {
   text-align: center;
   margin: 0;
   padding-bottom: 25px;
-  }
+}
 
   .content-image img {
 border-radius: 5px;
-  }
+}
 
 figcaption {
   text-align: center;
@@ -166,7 +166,6 @@ figcaption {
   bottom:130px;
   left:auto;
   right:10px;
-
 }
 
 .button:hover {
