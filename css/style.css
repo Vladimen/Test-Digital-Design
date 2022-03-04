@@ -9,7 +9,7 @@ html {
 body {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 28px;
   min-height: 100%;
   min-width: 1440px;
   margin: 0 auto;
@@ -135,6 +135,7 @@ main {
 .header-html {
   display: flex;
   margin-top: 50px;
+  justify-content: center;
 }
 
 .html-logo {
@@ -152,6 +153,7 @@ text-align: right;
 .header-css {
   display: flex;
   margin-top: 50px;
+  justify-content: center;
 }
 
 .css-logo {
@@ -169,6 +171,7 @@ text-align: right;
 .header-js {
   display: flex;
   margin-top: 50px;
+  justify-content: center;
 }
 
 .js-logo {
