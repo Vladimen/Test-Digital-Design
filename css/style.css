@@ -139,7 +139,7 @@ main {
 
 .html-logo {
   background-image: url(../img/html-logo.png);
-  background-size: 100%;
+  background-size: 80%;
   background-repeat: no-repeat;
   height: 70px;
   width: 70px;
@@ -156,7 +156,7 @@ text-align: right;
 
 .css-logo {
   background-image: url(../img/css-logo.png);
-  background-size: 100%;
+  background-size: 80%;
   background-repeat: no-repeat;
   height: 70px;
   width: 70px;
@@ -173,7 +173,7 @@ text-align: right;
 
 .js-logo {
   background-image: url(../img/js-logo.png);
-  background-size: 100%;
+  background-size: 80%;
   background-repeat: no-repeat;
   height: 70px;
   width: 70px;
